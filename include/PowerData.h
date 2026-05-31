@@ -7,7 +7,9 @@
 /**
  * 
  * @brief Represents the data for a Power log from www.cer.gov.au
+ * @date 9/5/2026
  * */
+
 typedef struct PowerData{
 	std::string accreditationCode;
 	std::string stationName;
