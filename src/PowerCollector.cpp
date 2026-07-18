@@ -22,3 +22,7 @@ PowerCollector::~PowerCollector(){
 int PowerCollector::getCounter(){
 	return counter;
 }
+
+PowerData PowerCollector::getData(int value){
+	return results[value];
+}
