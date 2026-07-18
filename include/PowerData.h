@@ -21,9 +21,10 @@ typedef struct PowerData{
 	std::string status;
 	double baseLine;
 	std::string comments;
+	Date approvalDate;
 
 	//default constructor
-	PowerData():accreditationCode(""), stationName(""), state(""), capacity(0), postCode(0), fuel(""), date(),status(""), baseLine(0), comments(""){}
+	PowerData():accreditationCode(""), stationName(""), state(""), capacity(0), postCode(0), fuel(""), date(),status(""), baseLine(0), comments(""), approvalDate(){}
 }PowerData;
 
 #endif
