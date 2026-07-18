@@ -109,7 +109,7 @@ std::istream & operator >>(std::istream & is, PowerData & pd){
 		std::getline(is, tempString, ',');
 	}
 	pd.stationName = tempString;
-	std::cout <<pd.stationName << std::endl;
+	//std::cout <<pd.stationName << std::endl;
 
 
 	//third value
