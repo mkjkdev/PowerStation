@@ -2,6 +2,13 @@
 #include "../include/Vector.h"
 #include "../include/Utilities.h"
 
+/***
+ * @brief PowerCollector provides a static vector instance Vector<PowerData> to store traversed items
+ * @author Mitchel King
+ * @date 18/07/2026
+ * 
+*/
+
 //initialize static members
 int PowerCollector::counter = 0;
 Vector<PowerData> PowerCollector::results = Vector<PowerData>();

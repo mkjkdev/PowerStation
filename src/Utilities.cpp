@@ -6,6 +6,12 @@
 #include<iostream>
 #include<sstream>
 
+/***
+ * @brief PowerCollector provides a static vector instance Vector<PowerData> to store traversed items
+ * @author Mitchel King
+ * @date 18/07/2026
+ * 
+*/
 
 void displayInfo(const PowerData & item){
 	std::cout << item << std::endl;

@@ -6,6 +6,14 @@
 #include "include/bst.h"
 #include "include/Node.h"
 
+
+/***
+ * @brief PowerCollector provides a static vector instance Vector<PowerData> to store traversed items
+ * @author Mitchel King
+ * @date 18/07/2026
+ * 
+*/
+
 int main(){
 	std::fstream inFile;
 	std::string inputFileName ="data/historical-accredited-power-stations-and-projects-0.csv";
