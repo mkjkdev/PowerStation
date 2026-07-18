@@ -86,9 +86,9 @@ std::istream & operator >>(std::istream & is, PowerData & pd){
 	//string stream
 	std::stringstream ss;
 	//power data
-	std::string tempString;
-	std::string tempStr1;
-	std::string word;
+	std::string tempString = "";
+	std::string tempStr1 = "";
+	std::string word = "";
 
 	//re write into loop
 	//get firstline
@@ -108,10 +108,14 @@ std::istream & operator >>(std::istream & is, PowerData & pd){
 	else{
 		std::getline(is, tempString, ',');
 	}
-	pd.stationName = tempString;
-	//std::cout <<pd.stationName << std::endl;
-
-
+	//if comma existed in the filename for edge cases
+	if(!tempStr1.empty()){
+		pd.stationName = tempStr1;
+	}
+	else{
+		pd.stationName = tempString;
+	}
+	
 	//third value
 	std::getline(is, tempString, ',');
 	ss = std::stringstream(tempString);
