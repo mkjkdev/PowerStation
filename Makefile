@@ -1,3 +1,10 @@
+/***
+ * @brief Makefile for the project
+ * @author mitchel king
+ * @date 18/07/2026
+ * 
+*/
+
 # Compiler
 CXX = g++
 
