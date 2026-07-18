@@ -23,6 +23,8 @@ class PowerCollector{
 
 		static int getCounter();
 
+		PowerData getData(int value);
+
 	private:
 		static int counter;
 		static Vector<PowerData> results;
@@ -34,5 +36,4 @@ template<class T>
 void PowerCollector::callBackFunc(T & data){
 	results.insert(data);
 	counter++;
-
 }
