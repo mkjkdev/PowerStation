@@ -29,9 +29,14 @@ int main(){
 		powerTree.insert(tempPower);
 	}
 	inFile.close();
+
 	//traverse and load sorted vector for faster IO
 	powerTree.inOrder(PowerCollector::callBackFunc);
-	powerTree.inOrder(displayInfo);
+
+	//Print sorted vector
+	for(int i=0;i < collector.getCounter();i++){
+		std::cout << collector.getData(i);
+	}
 
 	return 0;
 }
