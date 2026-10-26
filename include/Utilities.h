@@ -3,7 +3,7 @@
 
 /**
  * @brief non member operator overloads
- * @author mitchel king
+ * @author mkjkdev
  * @date 9/05/2026
  * 
  * */

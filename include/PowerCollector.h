@@ -4,7 +4,7 @@
 
 /***
  * @brief PowerCollector provides a static vector instance Vector<PowerData> to store traversed items
- * @author Mitchel King
+ * @author mkjkdev
  * @date 9/05/2026
  * 
 */

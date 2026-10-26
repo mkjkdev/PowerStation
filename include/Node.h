@@ -1,7 +1,7 @@
 /**
  * Project Bst
  * @brief intBst integer Binary Search Tree
- * @author Mitchel King
+ * @author mkjkdev
  * @date 17/05/2026
  */
 

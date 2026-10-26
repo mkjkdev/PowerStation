@@ -7,7 +7,7 @@
 /**
  * 
  * @brief Represents the data for a Power log from www.cer.gov.au
- * @author Mitchel King
+ * @author mkjkdev
  * @date 9/5/2026
  * */
 

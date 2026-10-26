@@ -1,6 +1,6 @@
 #/***
 # * @brief Makefile for the project
-# * @author Mitchel King
+# * @author mkjkdev
 # * @date 18/07/2026
 # * 
 #*/
